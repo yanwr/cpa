@@ -1,0 +1,101 @@
+.container-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 4rem;
+}
+ 
+.container-table thead, tbody td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #737373;
+    text-align: center;
+}
+ 
+.container-table thead th {
+    padding-bottom: 1rem;
+    border-bottom: 4px solid #9dbdd1;
+    font-size: 14pt;
+    color: #737373;
+}
+ 
+.container-table tr, td {
+    border-left: 2px solid #9dbdd1;
+}
+
+.container-table tr .first-row{
+    width: 20rem;
+    border-left: 0px;
+}
+.container-table tr .first-row div{
+    display: flex;
+    justify-content: space-around;
+}
+.container-table tbody tr .first-row .btn-eye{
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+    background-color: white;
+    color: #737373;
+}
+
+.container-table tbody tr .first-row .btn-eye:active{
+    position: relative;
+    top: 2px;
+    transition: .2s;
+}
+ 
+.container-table tr .desc-column{
+    width: 40%;
+}
+.container-table tr .desc-column .overflow{
+    width: 30rem;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 3rem;
+}
+.ellipsis{
+    text-overflow: ellipsis;
+}
+button{
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+    background-color: #44bd7a;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: .7rem;
+    top: 0px;
+    transition: .3s;
+}
+.container-table tr .name-column{
+    width: 20%;
+}
+button:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+   }
+button:active{
+    position: relative;
+    background-color: initial;
+    top: 2px;
+    transition: .2s;
+}
+@media(max-width:900px){
+    .container-table tr{
+        font-size: 11pt;
+    }
+    .container-table tr .first-row{
+        width: 10rem
+    }
+    .container-table tr .desc-column{
+        width: 15%;
+    }
+    .container-table tr .desc-column .overflow{
+        width: 10rem;
+        white-space: nowrap;
+        overflow: hidden;
+        padding-left: 1rem;
+    }
+}

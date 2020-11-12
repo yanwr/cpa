@@ -1,0 +1,23 @@
+.container-input {
+  position: relative;
+}
+
+.container-input + .container-input {
+  margin-top: 1.4rem;
+}
+
+.container-input label {
+  font-size: 16pt
+}
+
+.container-input input {
+  width: 100%;
+  height: 4rem;
+  margin-top: 0.8rem;
+  border-radius: 0.8rem;
+  background: #F8F8FC;
+  border: 1px solid #82a5e7;
+  outline: 0;
+  padding: 0 1.6rem;
+  font-size: 14pt;
+}

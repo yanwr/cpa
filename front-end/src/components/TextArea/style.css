@@ -1,0 +1,36 @@
+.container-textarea {
+  position: relative;
+  margin-top: 1.4rem;
+}
+
+.container-textarea label {
+  font-size: 16px
+}
+
+.container-textarea textarea {
+  width: 100%;
+  height: 14rem;
+  margin-top: 0.8rem;
+  border-radius: 0.8rem;
+  background: #F0F0F5;
+  border: 0px solid #82a5e7;
+  outline: 0;
+  color: #6C6C80;;
+  padding: 1rem 1.6rem;
+  font-size: 14pt;
+}
+
+.container-textarea:focus-within::after {
+  width: calc(100% - 3.2rem);
+  height: 2px;
+  content: '';
+  background: #82a5e7;
+  position: absolute;
+  left: 1.6rem;
+  right: 1.6rem;
+  bottom: 7px;
+}
+
+textarea{
+  resize: none;
+}

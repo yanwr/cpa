@@ -1,0 +1,196 @@
+.container-process {
+    width: 100vw;
+    position: relative;
+    padding-bottom: 55px;
+    min-height: 100vh;
+}
+
+.container-process .container-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-process .container-content main form{
+    margin: 80px auto;
+    padding: 64px;
+    max-width: 1000px;
+    background: #FFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-process .container-content main form h1 {
+    font-size: 38px;
+}
+
+.container-process .container-content main form fieldset {
+    margin-top: 64px;
+    min-inline-size: auto;
+    border: 0;
+}
+
+.container-process .container-content main form fieldset legend {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.container-process .container-content main form fieldset legend h2 {
+    font-size: 25px;
+}
+
+.container-process .container-content main form fieldset legend span {
+    font-size: 18px;
+    font-weight: normal;
+    color: #322153;
+}
+
+.container-process .container-content main form .input-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.container-process .container-content main form .input-container input[type=text],
+.container-process .container-content main form .input-container input[type=email],
+.container-process .container-content main form .input-container input[type=password]{
+    flex: 1;
+    background: #F0F0F5;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6C6C80;
+}
+
+.container-process .container-content main form .input-container select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    flex: 1;
+    background: #F0F0F5;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6C6C80;
+}
+
+.container-process .container-content main form .input-container input::placeholder,
+.container-process .container-content main form .input-container textarea::placeholder {
+    color: #A0A0B2;
+}
+
+.container-process .container-content main form .input-container label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.container-process .container-content main form .input-container :disabled {
+    cursor: not-allowed;
+}
+
+.container-process .container-content main form .container-input-group .input-container + .input-container {
+    margin-left: 0;
+}
+
+.container-process .container-content main form .container-input-group input + input {
+    margin-left: 0;
+}
+
+.container-process .container-content main form .btn-submit {
+    width: 220px;
+    height: 56px;
+    background: #34CB79;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    align-self: flex-end;
+    margin: auto;
+    margin-top: 40px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.container-process .container-content main form .btn-submit-disabled {
+    width: 220px;
+    height: 56px;
+    background: #F0F0F5;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    align-self: flex-end;
+    margin: auto;
+    margin-top: 40px;
+    transition: background-color 0.2s;
+    cursor: not-allowed;
+}
+
+.container-process .container-content main form .btn-submit:hover {
+    background: #2FB86E;
+}
+
+.container-process .container-content main form .btn-submit-disabled:hover {
+    background: #d0d0d3;
+}
+
+@media( min-width: 600px) {
+    .container-process .container-content main form .container-input-group .input-container + .input-container {
+        margin-left: 24px;
+    }
+
+    .container-process .container-content main form .container-input-group input + input {
+        margin-left: 24px;
+    }
+
+    .container-process .container-content main form .container-input-group {
+        flex: 1;
+        display: flex;
+    }
+
+    .container-process .container-content main form .btn-submit {
+        width: 260px;
+        height: 56px;
+        background: #34CB79;
+        border-radius: 8px;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0;
+        border: 0;
+        align-self: flex-end;
+        margin-top: 40px;
+        transition: background-color 0.2s;
+        cursor: pointer;
+    }
+    .container-process .container-content main form .btn-submit-disabled {
+        width: 260px;
+        height: 56px;
+        background: #F0F0F5;
+        border-radius: 8px;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0;
+        border: 0;
+        align-self: flex-end;
+        margin-top: 40px;
+        transition: background-color 0.2s;
+        cursor: not-allowed;
+    }
+
+    .container-process .container-content main form fieldset legend {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+}

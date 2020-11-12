@@ -1,0 +1,28 @@
+button{
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+    background-color: #44bd7a;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+    padding: .7rem;
+    top: 0px;
+    transition: .3s;
+    
+}
+button:hover{
+    background-color: #3da76d;
+    transition: .3s;
+    cursor: pointer;
+}
+button:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+   }
+button:active{
+    position: relative;
+    top: 2px;
+    transition: .2s;
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #322153;
+    font-family: 'Ubuntu';
+}
+
+.btn-custom-primary{
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+    background-color: #44bd7a;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+    padding: .5rem;
+    top: 0px;
+    transition: .3s;
+    margin-right: 10px; 
+    margin-left: 0 auto;
+    font-size: small;
+}
+
+.btn-custom-primary-lg{
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+    background-color: #44bd7a;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 20px;
+    transition: all 0.3s;
+}
+
+.btn-custom-primary-lg:hover,
+.btn-custom-primary:hover{
+    background-color: #3da76d;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn-custom-primary-lg:focus,
+.btn-custom-primary:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.btn-custom-primary-lg:active,
+.btn-custom-primary:active{
+    position: relative;
+    top: 2px;
+    transition: .2s;
+}
+
+.btn-custom-disabled {
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+    background-color: #F0F0F5;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+    padding: 15px 20px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.btn-custom-disabled:hover{
+    background-color:#d0d0d3;
+    cursor: not-allowed;
+}
+
+.btn-custom-disabled:active{
+    position: center;
+    top: 2px;
+    transition: .2s;
+}
+
+.btn-custom-cancel {
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+    background-color: #bd4844;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+    padding: 15px 20px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.btn-custom-cancel:hover{
+    background-color: rgb(139, 29, 29);
+}
+
+.btn-custom-cancel:active{
+    position: center;
+    top: 2px;
+    transition: .2s;
+}

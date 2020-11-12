@@ -1,0 +1,88 @@
+.container-header {
+    margin-bottom: 1rem;
+    color: #737373;
+    display: block;
+    padding: 0;
+}
+.container-logo{
+    display: flex;
+    justify-content: center;
+    background-color: #9dbdd1;
+    width: 100%;
+    height: 5rem;
+}
+.container-logo h1, h2, h3{
+    color:white;
+    padding-top: 1rem;
+}
+.container-logo img{
+    width: 80px;
+    height: 80px;
+}
+.container-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 5px solid #3f6d8a;
+    height: 3em;
+    background-color: #ebebeb;
+    font-weight: bold;
+    font-size: 14pt;
+}
+.container-info div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.container-info div button{
+    margin-left: 1.5rem;
+    height: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+<<<<<<< HEAD
+
+=======
+ 
+>>>>>>> c405d9df4a700c03dfcbc7b8be78ef4b2a11f0a7
+@media (max-width: 900px){
+    .container-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .container-logo h1{
+        font-size: 20pt;
+        margin-top: 0.5rem;
+    }
+    .container-logo img{
+        width: 80px;
+        height: 80px;
+    }
+    .container-info {
+        height: 3rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .container-info div {
+        display: flex;
+        justify-content: space-around;
+    }
+    .container-info div p{
+        font-size: 11pt;
+    }
+    .container-info div button{
+        padding: 0.3rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-left: 0.5rem;
+        height: 1.5rem;
+        font-size: 8pt;
+    }
+    .container-info div.profile p{
+        display: none;
+    }
+    .container-info div.profile{
+        margin-top: 0rem;
+    }
+}

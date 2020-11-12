@@ -1,0 +1,108 @@
+.container-login {
+    width: 100vw;
+    position: relative;
+    padding-bottom: 55px;
+    min-height: 100vh;
+}
+
+.container-login main {
+    margin: 5rem 3.4rem;
+    padding-bottom: 100px;
+    min-height: auto;
+    min-width: 220px;
+    border: 2px solid #ebebeb;
+    border-radius: 80px 0px 80px 0px;
+    color:#4e6a82;
+    background-color:#ebebeb ;
+    box-sizing: border-box;
+    padding: 68px 28px;
+}
+
+.container-login main h1 {
+    margin:0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container-login main form {
+    padding:5% 10%;
+    align-items: center;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.container-login main form p {
+    font-weight: bold;
+}
+ 
+.container-login main form input{
+    width: 100%;
+    margin-bottom: 21px;
+    border:none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: grey;
+    font-size: 16px;
+} 
+ 
+.container-login main form .btn-submit {
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+    background-color: #4e6a82;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+    padding: 15px 20px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.container-login main form .btn-submit:hover{
+    background-color:#6789a7;
+    cursor: pointer;
+}
+
+.container-login main form .btn-submit:active{
+    position: center;
+    top: 2px;
+    transition: .2s;
+}
+
+.container-login main form .btn-submit-disabled {
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+    background-color: #F0F0F5;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+    padding: 15px 20px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.container-login main form .btn-submit-disabled:hover{
+    background-color:#d0d0d3;
+    cursor: not-allowed;
+}
+
+.container-login main form .btn-submit-disabled:active{
+    position: center;
+    top: 2px;
+    transition: .2s;
+}
+
+@media( min-width: 1070px ) {
+    .container-login main {
+        min-width: 220px;
+        margin: 5rem 30%;
+    }
+}
